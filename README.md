@@ -14,4 +14,4 @@ This is a project that showcases the hometowns of some of Practicum's employees.
   
 **Images**  
   
-Images were exported directly from Figma and optimized using [here](https://tinypng.com/), so the project could load faster. 
+Images were exported directly from Figma and optimized using [tinypng](https://tinypng.com/), so the project could load faster. 
