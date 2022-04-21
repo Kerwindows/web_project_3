@@ -158,6 +158,9 @@
 
 	.places__image {
 		max-width: 100%;
+		-ms-grid-row: 2;
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 2;
 	}
 
 	.places__hometown {
@@ -168,12 +171,6 @@
 	.places__author {
 		-ms-grid-row: 1;
 		-ms-grid-column: 2;
-	}
-
-	.places__image {
-		-ms-grid-row: 2;
-		-ms-grid-column: 1;
-		-ms-grid-column-span: 2;
 	}
 
 	.places__description {
