@@ -36,9 +36,12 @@
 	-ms-grid-row: 1;
 	-ms-grid-column: 1;
 	grid-area: hometown;
+	margin: 0;
 	font-size: 72px;
 	font-weight: 900;
-	margin: 0;
+	line-height: 1.06;
+	align-self: self-end;
+	
 }
 
 .places__author {
@@ -60,12 +63,16 @@
 .places__author-title {
 	margin: 0;
 	font-size: 12px;
+	line-height: 1;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
 	color: #aaa;
 }
 
 .places__author-name {
 	margin: 0;
 	font-size: 18px;
+	line-height: 1.22;
 }
 
 .places__image {
@@ -105,9 +112,9 @@
 	-ms-grid-column: 1;
 	grid-area: button;
 	box-sizing: border-box;
-	width: 268px;
+	width: 248px;
 	height: 48px;
-	padding: 13px 20px;
+	padding: 15px 20px;
 	background: #0278FE;
 	color: #fff;
 	border-radius: 4px;
@@ -115,6 +122,7 @@
 	text-decoration: none;
 	text-align: center;
 	font-size:18px;
+	font-weight: 600;
 	line-height:1;
 	
 }
@@ -140,7 +148,7 @@
 
 	.places__hometown {
 		font-size: 42px;
-		line-height: 1.18;
+		line-height: 1.08;
 	}
 
 	.places__description {
@@ -163,18 +171,11 @@
 		-ms-grid-column-span: 2;
 	}
 
-	.places__hometown {
-		-ms-grid-row: 1;
-		-ms-grid-column: 1;
-	}
-
 	.places__author {
-		-ms-grid-row: 1;
 		-ms-grid-column: 2;
 	}
 
 	.places__description {
-		-ms-grid-row: 3;
 		-ms-grid-row-span: 1;
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 2;
@@ -182,7 +183,6 @@
 
 	.places__button {
 		-ms-grid-row: 4;
-		-ms-grid-column: 1;
 	}
 }
 
@@ -199,11 +199,6 @@
 		row-gap: 30px;
 	}
 
-	.places__hometown {
-		-ms-grid-row: 1;
-		-ms-grid-column: 1;
-	}
-
 	.places__author {
 		-ms-grid-row: 3;
 		-ms-grid-column: 1;
@@ -211,20 +206,16 @@
 
 	.places__image {
 		-ms-grid-row: 5;
-		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 	}
 
 	.places__description {
 		-ms-grid-row: 7;
-		-ms-grid-row-span: 1;
-		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 	}
 
 	.places__button {
 		-ms-grid-row: 9;
-		-ms-grid-column: 1;
 	}
 }
 
@@ -232,5 +223,17 @@
    
 	.places {
 		padding: 64px 16px 0;
+		gap:48px;
+	}
+	.places__hometown {
+		font-size: 32px;
+		line-height: 1.09;
+	}
+	.places__image{
+		min-width: calc(100% + 32px);
+		margin-left: -16px;
+	}
+	.places__button {
+		width: 288px;
 	}
 }

@@ -20,20 +20,23 @@
 
 .intro__quote {
 	margin: 40px 0 0;
+	max-width: 690px;
 	font-size: 24px;
 	line-height: 1.42;
 }
 
 .intro__quote-author {
 	margin: 10px 0 0;
+	max-width: 690px;
 	font-size: 24px;
 	line-height: 1.42;
 	text-align: right;
 }
 
 .intro__description {
-	font-size: 16px;
 	margin: 32px 0 0;
+	max-width: 690px;
+	font-size: 16px;
 	line-height: 1.63;
 }
 
