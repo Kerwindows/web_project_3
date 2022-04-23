@@ -41,27 +41,16 @@
 }
 
 @media screen and (max-width: 1054px) {
-
-	.intro {
-		max-width: calc(100% - 48px);
-	}
-
 	.intro__column {
-		padding-top: 88px;
-	}
-}
-
-@media screen and (max-width: 664px) {
-	.intro__column {
-		padding-top: 64px;
+		max-width: 720px;
+		padding: 88px 24px 0;
 	}
 }
 
 @media screen and (max-width: 540px) {
-	.intro {
-		max-width: calc(100% - 36px);
+	.intro__column {
+		padding: 64px 16px 0;
 	}
-
 	.intro__title {
 		font-size: 32px;
 		line-height: 1.09;
