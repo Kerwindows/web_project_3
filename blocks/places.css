@@ -222,18 +222,29 @@
 @media screen and (max-width: 540px) {
    
 	.places {
-		padding: 64px 16px 0;
+		padding: 64px 0 0;
 		gap:48px;
 	}
 	.places__hometown {
+		margin:0 16px;
 		font-size: 32px;
 		line-height: 1.09;
+	}
+	.places__author-title{
+		margin:0 16px;
+	}
+	.places__author-name{
+		margin:0 16px;
 	}
 	.places__image{
 		min-width: calc(100% + 32px);
 		margin-left: -16px;
 	}
+	.places__description-item{
+		margin:0 16px;
+	}
 	.places__button {
 		width: 288px;
+		margin:0 16px;
 	}
 }
