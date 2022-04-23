@@ -236,10 +236,6 @@
 	.places__author-name{
 		margin:0 16px;
 	}
-	.places__image{
-		min-width: calc(100% + 32px);
-		margin-left: -16px;
-	}
 	.places__description-item{
 		margin:0 16px;
 	}
